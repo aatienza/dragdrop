@@ -1,0 +1,15 @@
+<div class="toolbar divider">
+
+	<div ng-click="editView()" class="button raised view_toggle">
+		Edit View
+		<paper-ripple fit></paper-ripple>
+	</div>
+
+</div>
+
+<div class="container">
+		<page class="page"
+			  ng-repeat="page in pages"
+			  mode="live"
+			  page="page"></page>
+</div>

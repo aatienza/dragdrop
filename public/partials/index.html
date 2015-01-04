@@ -1,0 +1,24 @@
+<div class="toolbar divider">
+
+	<div ng-click="liveView()" class="button raised view_toggle">
+		Live View
+		<paper-ripple fit></paper-ripple>
+	</div>
+
+	<tool ng-repeat="tool in tools"
+		  draggable
+		  type="tool.field_type"
+		  clone_on_drag="t"
+		  clone_on_drop="t"
+		  drop_target="page"
+		  >{{tool.field_type}}</tool>
+
+	<a ng-click="clearFields()" class="clear">Clear Fields</a>
+
+</div>
+
+<div class="container">
+		<page class="page"
+			  ng-repeat="page in pages"
+			  page="page"></page>
+</div>

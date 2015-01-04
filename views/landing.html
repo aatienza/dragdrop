@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="DragDrop">
+	<head>
+		<title>DragDrop</title>
+	    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+	    <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css" />
+	    <link rel="stylesheet" href="/stylesheets/font.css" />
+	    <link rel="stylesheet" href="/stylesheets/style.css"><!-- 
+<link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
+<link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+<link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html"> -->
+	</head>
+
+    <body>
+
+		<div class="header bg-dark-primary">
+			<a href="/">
+				<h3 class="home">DragDrop</h3>
+			</a>
+		</div>	    
+
+
+	      <ng-view></ng-view>
+
+	</body>
+
+	<script src="//ajax.googleapis.com/ajax/libs/mootools/1.5.1/mootools-yui-compressed.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+
+    <script src="/javascripts/app.js"></script>
+    <script src="/javascripts/controllers.js"></script>
+    <script src="/javascripts/services.js"></script>
+    <script src="/javascripts/directives.js"></script>
+    
+</html>

@@ -1,0 +1,152 @@
+body, html {
+	height: 100%;
+	background: white;
+}
+
+body {
+	color: #fff;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	z-index: 3;
+}
+
+.bg-dark-primary {
+	background: #E64A19;
+}
+
+.bg-primary {
+	background: #FF5722;
+}
+
+.accent {
+	background: #00BCD4;
+}
+
+.dark-text {
+	color: #212121;
+}
+
+.alt-text {
+	color: #727272;
+}
+
+.divider {
+	border: 1px solid #B6B6B6;
+}
+
+
+h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+.header .home {
+	margin: 15px;
+}
+
+
+.toolbar {
+	position: fixed;
+	left: 25px;
+	top: 100px;
+	padding: 15px;
+	background: white;
+}
+
+.toolbar .tool,
+.dragging .tool,
+.page tool .tool,
+.page field .tool {
+
+	font-size: 0.9em;
+	display: block;
+	padding: 15px;
+	
+	margin-bottom: 5px;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+
+	background: rgba(255,255,255, 0.6);
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.page {
+	width: 850px;
+	height: 1100px;
+	border: 1px solid #ddd;
+	margin: 25px;
+	background-position: center center;
+	background-size: 100%;
+
+	margin-left: 300px;
+	display: block;
+
+	position: relative;
+}
+
+.page:first-child {
+	margin-top: 100px;
+}
+
+
+
+.dragging {
+	position: absolute;
+	opacity: 0.7;
+	
+}
+
+.page tool {
+	position: absolute;
+}
+
+
+.view_toggle {
+	margin: 0 auto;
+	margin-bottom: 25px;
+	display: block;
+	width: 175px;
+}
+
+.clear {
+	color: #009587;
+	margin: 0 auto;
+	margin-top: 25px;
+	display: block;
+	width: 175px;
+	text-align: center;
+	font-size: 10px;
+	opacity: 0.3
+}
+
+.clear:hover {
+	opacity: 1;
+	transition: all 500ms;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-o-transition: all 500ms;
+}
+
+.page field {
+	position: absolute;
+}
+
+.button {
+	cursor: pointer;
+}
